@@ -103,7 +103,7 @@
     "count": 159
   },
   "media": {
-    "logo": "",
+    "logo": "logo.png",
     "hero": [
       {
         "src": "hero.webp",
