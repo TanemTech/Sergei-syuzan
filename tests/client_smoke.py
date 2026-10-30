@@ -114,11 +114,16 @@ def check(browser, width, height, mobile, language):
         lowered = error.lower()
         return "/yandex.ru/ads/meta/" in lowered and "due to access control checks" in lowered
 
+    def is_external_yandex_ad_script_noise(error):
+        lowered = error.lower()
+        return "yandex.ru/ads/system/context.js" in lowered and "failed to load" in lowered
+
     app_errors = [
         error for error in errors
         if not any(token in error for token in google_maps_frame_noise)
         and not is_local_yandex_frame_noise(error)
         and not is_local_yandex_ad_cors_noise(error)
+        and not is_external_yandex_ad_script_noise(error)
     ]
     assert not app_errors, f"JavaScript errors: {app_errors}"
     assert not failed_assets, f"Missing site assets: {failed_assets}"
