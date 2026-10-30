@@ -84,7 +84,7 @@
     },
     "messengerHandle": "",
     "mapUrl": "https://yandex.ru/maps/org/syuzan/161199825933/?ll=37.855734%2C55.661759&z=14",
-    "mapEmbedUrl": "https://yandex.ru/map-widget/v1/?ll=37.855711%2C55.661822&z=17&pt=37.855711%2C55.661822,pm2rdm",
+    "mapEmbedUrl": "https://yandex.ru/map-widget/v1/?ll=37.855734%2C55.661759&z=17&pt=37.855734%2C55.661759,pm2rdm",
     "reviewsUrl": "https://yandex.ru/maps/org/syuzan/161199825933/reviews/",
     "booking": [
       {
