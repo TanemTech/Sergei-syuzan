@@ -12,7 +12,7 @@ HOST = os.environ.get("CLIENT_SITE_URL", "http://127.0.0.1:4176")
 def configured_locales():
     with open("site-data.js", encoding="utf-8") as source_file:
         source = source_file.read()
-    match = re.search(r"const data=(\\{.*?\\});\\s*const rows=", source, re.S)
+    match = re.search(r"const data=(\{.*?\});\s*const rows=", source, re.S)
     assert match, "Could not read configured locales from site-data.js"
     data = json.loads(match.group(1))
     locales = data.get("locales", [])
