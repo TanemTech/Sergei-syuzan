@@ -117,6 +117,38 @@
     "about": "profile.webp",
     "portfolio": [
       {
+        "src": "gallery-01.webp",
+        "alt": {
+          "ru": "Интерьер салона",
+          "en": "Salon interior",
+          "hy": "Интерьер салона"
+        }
+      },
+      {
+        "src": "gallery-02.webp",
+        "alt": {
+          "ru": "Зона ресепшена",
+          "en": "Reception area",
+          "hy": "Зона ресепшена"
+        }
+      },
+      {
+        "src": "gallery-03.webp",
+        "alt": {
+          "ru": "Вход в салон",
+          "en": "Salon entrance",
+          "hy": "Вход в салон"
+        }
+      },
+      {
+        "src": "gallery-04.webp",
+        "alt": {
+          "ru": "Работа парикмахера",
+          "en": "Hair styling in progress",
+          "hy": "Работа парикмахера"
+        }
+      },
+      {
         "src": "gallery-05.webp",
         "alt": {
           "ru": "Короткая женская стрижка",
@@ -130,6 +162,46 @@
           "ru": "Длинные светлые волосы",
           "en": "Long blonde hair",
           "hy": "Длинные светлые волосы"
+        }
+      },
+      {
+        "src": "gallery-07.webp",
+        "alt": {
+          "ru": "Длинные тёмные волосы",
+          "en": "Long dark hair",
+          "hy": "Длинные тёмные волосы"
+        }
+      },
+      {
+        "src": "gallery-08.webp",
+        "alt": {
+          "ru": "Вечерняя причёска",
+          "en": "Evening hairstyle",
+          "hy": "Вечерняя причёска"
+        }
+      },
+      {
+        "src": "gallery-09.webp",
+        "alt": {
+          "ru": "Кудрявые волосы",
+          "en": "Curly hair",
+          "hy": "Кудрявые волосы"
+        }
+      },
+      {
+        "src": "gallery-10.webp",
+        "alt": {
+          "ru": "Собранная причёска",
+          "en": "Updo hairstyle",
+          "hy": "Собранная причёска"
+        }
+      },
+      {
+        "src": "gallery-11.webp",
+        "alt": {
+          "ru": "Стрижка каре",
+          "en": "Bob haircut",
+          "hy": "Стрижка каре"
         }
       },
       {
@@ -149,11 +221,83 @@
         }
       },
       {
+        "src": "gallery-14.webp",
+        "alt": {
+          "ru": "Светлый маникюр с дизайном",
+          "en": "Light manicure with nail art",
+          "hy": "Светлый маникюр с дизайном"
+        }
+      },
+      {
+        "src": "gallery-15.webp",
+        "alt": {
+          "ru": "Красный маникюр",
+          "en": "Red manicure",
+          "hy": "Красный маникюр"
+        }
+      },
+      {
+        "src": "gallery-16.webp",
+        "alt": {
+          "ru": "Маникюр с художественным дизайном",
+          "en": "Manicure with nail art",
+          "hy": "Маникюр с художественным дизайном"
+        }
+      },
+      {
+        "src": "gallery-17.webp",
+        "alt": {
+          "ru": "Маникюр с тонким дизайном",
+          "en": "Manicure with fine-line art",
+          "hy": "Маникюр с тонким дизайном"
+        }
+      },
+      {
+        "src": "gallery-18.webp",
+        "alt": {
+          "ru": "Процедура педикюра",
+          "en": "Pedicure treatment",
+          "hy": "Процедура педикюра"
+        }
+      },
+      {
+        "src": "gallery-19.webp",
+        "alt": {
+          "ru": "Педикюр с блестящим покрытием",
+          "en": "Glitter pedicure",
+          "hy": "Педикюр с блестящим покрытием"
+        }
+      },
+      {
+        "src": "gallery-20.webp",
+        "alt": {
+          "ru": "Оформление бровей и ресниц",
+          "en": "Brow and lash styling",
+          "hy": "Оформление бровей и ресниц"
+        }
+      },
+      {
+        "src": "gallery-21.webp",
+        "alt": {
+          "ru": "Макияж глаз",
+          "en": "Eye makeup",
+          "hy": "Макияж глаз"
+        }
+      },
+      {
         "src": "gallery-22.webp",
         "alt": {
           "ru": "Вечерний макияж",
           "en": "Evening makeup",
           "hy": "Вечерний макияж"
+        }
+      },
+      {
+        "src": "gallery-23.webp",
+        "alt": {
+          "ru": "Профессиональный макияж",
+          "en": "Professional makeup",
+          "hy": "Профессиональный макияж"
         }
       },
       {
@@ -165,11 +309,251 @@
         }
       },
       {
-        "src": "gallery-10.webp",
+        "src": "gallery-25.webp",
         "alt": {
-          "ru": "Собранная причёска",
-          "en": "Updo hairstyle",
-          "hy": "Собранная причёска"
+          "ru": "Свадебный образ",
+          "en": "Bridal look",
+          "hy": "Свадебный образ"
+        }
+      },
+      {
+        "src": "gallery-26.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-27.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-28.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-29.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-30.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-31.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-32.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-33.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-34.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-35.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-36.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-37.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-38.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-39.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-40.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-41.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-42.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-43.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-44.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-45.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-46.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-47.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-48.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-49.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-50.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-51.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-52.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-53.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-54.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
+        }
+      },
+      {
+        "src": "gallery-55.webp",
+        "alt": {
+          "ru": "Фотография работ салона «Сюзан»",
+          "en": "A photo of work at Syuzan salon",
+          "hy": "Լուսանկար «Սյուզան» սրահի աշխատանքներից"
         }
       }
     ],
