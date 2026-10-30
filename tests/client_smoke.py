@@ -1,12 +1,24 @@
 #!/usr/bin/env python3
 """Smoke-test a *real* production site (not the Lumen test fixture) in Chromium or WebKit."""
 import argparse
+import json
 import os
 import re
 
 from playwright.sync_api import sync_playwright
 
 HOST = os.environ.get("CLIENT_SITE_URL", "http://127.0.0.1:4176")
+
+def configured_locales():
+    with open("site-data.js", encoding="utf-8") as source_file:
+        source = source_file.read()
+    match = re.search(r"const data=(\\{.*?\\});\\s*const rows=", source, re.S)
+    assert match, "Could not read configured locales from site-data.js"
+    data = json.loads(match.group(1))
+    locales = data.get("locales", [])
+    assert locales and all(language in data["salon"]["name"] for language in locales), "Invalid configured locales"
+    return locales
+
 
 
 def must_equal(locator, expected, label):
@@ -94,7 +106,15 @@ def check(browser, width, height, mobile, language):
         'Could not load "util".',
         'maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true due to access control checks.',
     )
-    app_errors = [error for error in errors if not any(token in error for token in google_maps_frame_noise)]
+    def is_local_yandex_frame_noise(error):
+        lowered = error.lower()
+        return "yandex.ru" in lowered and "protocols must match" in lowered and "127.0.0.1" in lowered
+
+    app_errors = [
+        error for error in errors
+        if not any(token in error for token in google_maps_frame_noise)
+        and not is_local_yandex_frame_noise(error)
+    ]
     assert not app_errors, f"JavaScript errors: {app_errors}"
     assert not failed_assets, f"Missing site assets: {failed_assets}"
     context.close()
@@ -108,10 +128,12 @@ def main():
     with sync_playwright() as playwright:
         browser = getattr(playwright, args.engine).launch(headless=True)
         try:
-            for case in [(1366, 900, False, "ru"), (1366, 900, False, "en"),
-                         (1366, 900, False, "hy"), (390, 844, True, "ru"),
-                         (390, 844, True, "en"), (390, 844, True, "hy"),
-                         (1180, 820, True, "ru")]:
+            locales = configured_locales()
+            cases = []
+            for language in locales:
+                cases.extend([(1366, 900, False, language), (390, 844, True, language)])
+            cases.append((1180, 820, True, locales[0]))
+            for case in cases:
                 check(browser, *case)
         finally:
             browser.close()
